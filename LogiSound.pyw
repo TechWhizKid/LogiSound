@@ -43,8 +43,8 @@ if not os.path.exists("config.ini"):
     messagebox.showerror("Error", "Error: Not permitted to read from or write to this folder.")
     os._exit(0)
 else:
-    config = configparser.ConfigParser()   # Initialize configparser
-    config.read("config.ini")              # Read the config file
+    config = configparser.ConfigParser(inline_comment_prefixes='//')   # Initialize configparser
+    config.read("config.ini")                                          # Read the config file
 
 
 if config.has_section("LogiSound_Config"): # check if the LogiSound_Config section exists
