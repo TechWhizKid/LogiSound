@@ -30,10 +30,10 @@ pip install pygame pywin32
 
 Open `\templates\...\` and run `build.vbs` to generate a file called `LogiSound.dat`. This file will be used by the app if it is placed in the same directory as the LogiSound executable or LogiSound python script. To create your own `LogiSound.dat`, follow these steps:
 
-**Step 1**: Place your chosen image and sound file in the same folder.
-**Step 2**: Create a configuration file named `config.ini` and open it for editing.
-**Step 3**: Add a section named `[LogiSound_Config]` in the `config.ini` file.
-**Step 4**: Write the configuration file according to the commented instructions.
+**Step 1**: Place your chosen image and sound file in the same folder.<br>
+**Step 2**: Create a configuration file named `config.ini` and open it for editing.<br>
+**Step 3**: Add a section named `[LogiSound_Config]` in the `config.ini` file.<br>
+**Step 4**: Write the configuration file according to the commented instructions.<br>
 
 ```ini
 [LogiSound_Config]
